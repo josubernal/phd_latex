@@ -1,0 +1,26 @@
+\documentclass[11pt, a4paper, twoside]{book}
+
+\input{preamble/packages}
+
+\title{Consolidated PhD Learnings}
+\author{Josu Bernal}
+\date{\today}
+
+\begin{document}
+
+\frontmatter
+\maketitle
+\tableofcontents
+
+\mainmatter
+% Use \include instead of \input for chapters. 
+% \include allows you to compile specific chapters independently using \includeonly{}
+\include{chapters/01_intro}
+\include{chapters/02_models}
+% \include{chapters/02_literature}
+% \include{chapters/03_methodology}
+
+\backmatter
+\printbibliography
+
+\end{document}

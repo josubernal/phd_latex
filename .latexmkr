@@ -1,0 +1,4 @@
+$pdf_mode = 1; # Always compile to PDF
+$synctex = 1;  # Enable SyncTeX for clicking between PDF and code
+$interaction = "nonstopmode"; # Don't stop for minor errors
+$out_dir = 'build'; # Keep the root directory clean by dumping aux files here
